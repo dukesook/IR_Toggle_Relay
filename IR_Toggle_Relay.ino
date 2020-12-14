@@ -67,7 +67,6 @@ void setup() {
 }
 
 void loop() {
-
   //SINGAL DETECTED
   if (irrecv.decode(&results)) {
     Serial.println(results.value, HEX); //print signal
